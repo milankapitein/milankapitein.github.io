@@ -1,12 +1,24 @@
 let jokers = [
-  // {
-  //   name: "Joker",
-  //   text: [
-  //     "{C:mult}+4{} Mult"
-  //   ],
-  //   image_url: "img/j_joker.png",
-  //   rarity: "Common"
-  // }
+  {
+    name: "Humble Joker",
+    text: [
+			"{C:white,X:mult} X#1# {} Mult"
+    ],
+    image_url: "img/j_joker.png",
+    rarity: "Rare"
+  },
+  {
+    name: "Circle Joker",
+    text: [
+			"If hand contains exactly {C:attention}1 {}card",
+			"this joker gains {C:mult}+#2# {}Mult",
+			"and {C:chips}+#4# {}Chips",
+			"{C:inactive}(Currently {C:mult}+#1# {C:inactive}Mult & {C:chips}+#3# {C:inactive}Chips)"
+    ],
+    image_url: "img/j_joker.png",
+    rarity: "Rare"
+  },
+
 ]
 
 // works the same. 
@@ -110,22 +122,22 @@ let blinds = [
 ]
 
 let shop_items = [
-  {
-    name: "Joker",
-    text: [
-      "{C:mult}+4{} Mult"
-    ],
-    image_url: "img/j_joker.png",
-    rarity: "Voucher"
-  },
-  {
-    name: "Joker",
-    text: [
-      "{C:mult}+4{} Mult"
-    ],
-    image_url: "img/j_joker.png",
-    rarity: "Pack"
-  },
+  // {
+  //   name: "Joker",
+  //   text: [
+  //     "{C:mult}+4{} Mult"
+  //   ],
+  //   image_url: "img/j_joker.png",
+  //   rarity: "Voucher"
+  // },
+  // {
+  //   name: "Joker",
+  //   text: [
+  //     "{C:mult}+4{} Mult"
+  //   ],
+  //   image_url: "img/j_joker.png",
+  //   rarity: "Pack"
+  // },
 ]
 
 let cols = {
