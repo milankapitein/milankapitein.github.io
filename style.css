@@ -30,7 +30,7 @@ main {
   text-align: center;
   color: white;
   padding: 1rem;
-  width: min(60rem, 100%);
+  width: min(90rem, 100%); /*add rem to display more jokers per row*/
   margin: 1rem auto;
   font-size: 1.5rem;
 }
@@ -45,7 +45,7 @@ h1 {
   grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
   justify-content: center;
   flex: 1;
-  gap: 1rem;
+  gap: 2rem;
   flex-wrap: wrap;
 }
 .joker {

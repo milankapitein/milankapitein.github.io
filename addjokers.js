@@ -2,9 +2,9 @@ let jokers = [
   {
     name: "Humble Joker",
     text: [
-			"{C:white,X:mult} X2 {} Mult"
+			"{C:white,X:mult}X2{} Mult"
     ],
-    image_url: "img/j_joker.png",
+    image_url: "img/HumbleJoker.png",
     rarity: "Rare"
   },
   {
@@ -15,7 +15,7 @@ let jokers = [
 			"and {C:chips}+14 {}Chips",
 			"{C:inactive}(Currently {C:mult}+0 {C:inactive}Mult & {C:chips}+0 {C:inactive}Chips)"
     ],
-    image_url: "img/j_joker.png",
+    image_url: "img/CircleJoker.png",
     rarity: "Rare"
   },
   {
@@ -25,16 +25,16 @@ let jokers = [
 			"unique {C:spectral}Spectral {}card used this run",
 			"{C:inactive}(Currently {C:white,X:mult}X1.0{C:inactive} Mult)"
     ],
-    image_url: "img/j_joker.png",
+    image_url: "img/BadOmen.png",
     rarity: "Rare"
   },
   {
     name: "Red Joker",
     text: [
-			"Gains {C:chips}+7 {}Chips per {C:attention}discard{}",
-			"{C:inactive}(Currently {C:chips}+#2# {C:inactive}Chips)"
+			"Gains {C:chips}+4 {}Chips per {C:attention}discard{}",
+			"{C:inactive}(Currently {C:chips}+0 {C:inactive}Chips)"
     ],
-    image_url: "img/j_joker.png",
+    image_url: "img/RedJoker.png",
     rarity: "Common"
   },
   {
@@ -43,7 +43,7 @@ let jokers = [
 			"All chances for {C:enhanced}Editions {}are",
 			"equally likely, including {C:dark_edition}Negative{}"
     ],
-    image_url: "img/j_joker.png",
+    image_url: "img/RiggedWheel.png",
     rarity: "Rare"
   },
   {
@@ -53,24 +53,24 @@ let jokers = [
 			"for each scoring {C:attention}Stone {}card",
 			"{C:inactive}(Currently {C:mult}+0 {C:inactive}Mult)"
     ],
-    image_url: "img/j_joker.png",
-    rarity: "Rare"
+    image_url: "img/BrickByBrick.png",
+    rarity: "Common"
   },
   {
     name: "Miner",
     text: [
       "Retriggers all played {C:attention}Stone {}cards"
     ],
-    image_url: "img/j_joker.png",
+    image_url: "img/Miner.png",
     rarity: "Common"
   },
   {
     name: "Colorblindness",
     text: [
-      "{V:3}Clubs{} and {V:4}Diamonds{} count",
+      "{C:clubs}Clubs{} and {C:diamonds}Diamonds{} count",
 			"as the same suit"
     ],
-    image_url: "img/j_joker.png",
+    image_url: "img/Colorblindness.png",
     rarity: "Common"
   },
   {
@@ -79,16 +79,16 @@ let jokers = [
 			"{C:mult}+30 {}Mult for scoring {C:attention}Wild {}card",
 			"in the leftmost position"
     ],
-    image_url: "img/j_joker.png",
+    image_url: "img/WildWest.png",
     rarity: "Common"
   },
   {
     name: "Fire Tornado",
     text: [
-			"{C:mult}+#1# {}Mult if played hand only",
-			"contains {V:2}Hearts {}and {V:4}Diamonds{}"
+			"{C:mult}+20 {}Mult if played hand only",
+			"contains {C:hearts}Hearts {}and {C:diamonds}Diamonds{}"
     ],
-    image_url: "img/j_joker.png",
+    image_url: "img/FireTornado.png",
     rarity: "Common"
   },
   {
@@ -97,16 +97,16 @@ let jokers = [
 			"Retrigger all scoring {C:attention}8s{},",
 			"{C:attention}6s{}, {C:attention}9s {}and {C:attention}Aces {}"
     ],
-    image_url: "img/j_joker.png",
+    image_url: "img/SymmetryJoker.png",
     rarity: "Uncommon"
   },
   {
     name: "Hole in One",
     text: [
 			"If {C:attention}first hand{} of round contains",
-			"a scoring {C:attention}Ace{}, earn {C:money}$#1#{}"
+			"a scoring {C:attention}Ace{}, earn {C:money}$5{}"
     ],
-    image_url: "img/j_joker.png",
+    image_url: "img/HoleInOne.png",
     rarity: "Common"
   },  
   {
@@ -115,46 +115,47 @@ let jokers = [
 			"If hand contains 3 {C:attention}7s{},",
 			"create {C:attention}3 {C:dark_edition}Negative {}Consumables"
     ],
-    image_url: "img/j_joker.png",
+    image_url: "img/SlotMachine.png",
     rarity: "Rare"
   },  
   {
     name: "The Deal",
     text: [
-			"Go down to {C:blue}#1#{} Hand, gain {C:red}+#2# {}Discards"
+			"Go down to {C:blue}1{} Hand, gain {C:red}+5 {}Discards"
     ],
-    image_url: "img/j_joker.png",
-    rarity: "Unommon"
+    image_url: "img/TheDeal.png",
+    rarity: "Uncommon"
   },    
   {
     name: "Loan Shark",
     text: [
-      "This Joker gains {C:white,X:mult}X0.5 {} Mult for",
+      "This Joker gains {C:white,X:mult}X0.5{} Mult for",
 			"each {C:money}$1{} below {C:money}0{}",
-			"Go up to {C:red}-5#{} in debt",
+			"Go up to {C:red}-$5{} in debt",
 			"{C:inactive}(Currently {C:white,X:mult}X1{C:inactive} Mult)"
     ],
-    image_url: "img/j_joker.png",
+    image_url: "img/LoanShark.png",
     rarity: "Rare"
   },
   {
     name: "The Reaper",
     text: [
 			"If the {C:attention}winning hand{} of round contains",
-			"a {C:attention}Pair{}, create a {C:tarot}Death Tarot{} card"
+			"a {C:attention}Pair{}, {C:green,E:1}1 in 2{} chance",
+			"to create a {C:tarot}Death Tarot{} card"
     ],
-    image_url: "img/j_joker.png",
+    image_url: "img/TheReaper.png",
     rarity: "Common"
   },
   {
     name: "Black Kitten",
     text: [
-			"This Joker gains {C:white,X:mult}X0.1 {} Mult if a {C:attention}Lucky {}card",
+			"This Joker gains {C:white,X:mult}X0.1{} Mult if a {C:attention}Lucky {}card",
 			"{C:red}unsuccesfully {}triggers, loses {C:white,X:mult}X0.2 {} Mult",
 			"for a {C:green}succesful {}trigger",
-			"{C:inactive}(Currently {C:white,X:mult}X1# {C:inactive} Mult)"
+			"{C:inactive}(Currently {C:white,X:mult}X1{C:inactive} Mult)"
     ],
-    image_url: "img/j_joker.png",
+    image_url: "img/BlackKitten.png",
     rarity: "Uncommon"
   },
   {
@@ -165,16 +166,16 @@ let jokers = [
 			"Earn {C:money}$1 {}for each {C:attention}3 {}destroyed",
 			"{C:inactive}(Currently {C:attention}0 {C:inactive}cards to remove)"
     ],
-    image_url: "img/j_joker.png",
+    image_url: "img/Lumberjack.png",
     rarity: "Uncommon"
   },
   {
     name: "Clown Fiesta",
     text: [
-			"Sell this Joker to create {C:attention}#1#{}",
+			"Sell this Joker to create {C:attention}2{}",
 			"free {C:attention}Juggle Tags{}"
     ],
-    image_url: "img/j_joker.png",
+    image_url: "img/ClownFiesta.png",
     rarity: "Uncommon"
   },
   {
@@ -184,7 +185,7 @@ let jokers = [
 			"{C:attention}Wild 4 {}in your {C:attention}full deck{}",
 			"{C:inactive}(Currently {C:white,X:mult}X1{C:inactive} Mult)"
     ],
-    image_url: "img/j_joker.png",
+    image_url: "img/ForceOfNature.png",
     rarity: "Rare"
   },
   {
@@ -194,16 +195,16 @@ let jokers = [
 			"{C:chips}+60 {}Chips on {C:attention}odd{} hands",
 			"{C:gold}$2{} on {C:attention}final{} hand of round"
     ],
-    image_url: "img/j_joker.png",
+    image_url: "img/Multitasking.png",
     rarity: "Common"
   },
   {
     name: "The Toilet",
     text: [
-			"{C:green,E:1}1 in 2{} chance to upgrade level",
+			"{C:green,E:1}1 in 3{} chance to upgrade level",
 			"of {C:attention}poker hand {}containing {C:attention}Flush{}"
     ],
-    image_url: "img/j_joker.png",
+    image_url: "img/TheToilet.png",
     rarity: "Common"
   },
   {
@@ -212,7 +213,7 @@ let jokers = [
 			"Blue and purple {C:attention}seals {}",
 			"can activate when played"
     ],
-    image_url: "img/j_joker.png",
+    image_url: "img/MagicHat.png",
     rarity: "Common"
   },
   {
@@ -222,8 +223,8 @@ let jokers = [
 			"in your entire deck can",
 			"no longer be {C:attention}debuffed{}"
     ],
-    image_url: "img/j_joker.png",
-    rarity: "Common"
+    image_url: "img/Phalanx.png",
+    rarity: "Uncommon"
   },
   {
     name: "Betrayal",
@@ -231,26 +232,16 @@ let jokers = [
 			"When {C:attention}Blind {}is selected, earn",
 			"{C:money}$20 {}and {C:red}destroy {}a random Joker"
     ],
-    image_url: "img/j_joker.png",
+    image_url: "img/Betrayal.png",
     rarity: "Uncommon"
   },
   {
     name: "The Landlords",
     text: [
-			"{C:white,X:mult}X3.5{} Mult if played hand",
+			"{C:white,X:mult}X4{} Mult if played hand",
 			"contains a {C:attention}Full House{}"
     ],
-    image_url: "img/j_joker.png",
-    rarity: "Rare"
-  },
-  {
-    name: "The Legend of Jimbo",
-    text: [
-			"This Joker gains {C:white,X:mult}X10{} Mult",
-			"for each {E:2,T:j_joker}Jimbo {}in your Joker slots",
-			"{C:inactive}(Currently {C:white,X:mult}X1{C:inactive} Mult)"
-    ],
-    image_url: "img/j_joker.png",
+    image_url: "img/TheLandlords.png",
     rarity: "Rare"
   },
   {
@@ -260,16 +251,18 @@ let jokers = [
 			"{C:mult}-25 {}Mult after defeating {C:attention}Boss Blind{}",
 			"{C:inactive}(Currently {C:mult}+0{C:inactive} Mult)"
     ],
-    image_url: "img/j_joker.png",
+    image_url: "img/RecursiveJoker.png",
     rarity: "Uncommon"
   },
   {
     name: "Butterfly Effect",
     text: [
-			"{C:attention}Wild Cards{} have the additional effect of {C:attention}Lucky Cards{}",
-			"Enhancement changes at the end of each round"
+			"{C:attention}Wild Cards{} have the ",
+			"additional effect of {C:attention}Lucky Cards{}",
+			"Enhancement changes at ",
+			"the end of each round"
     ],
-    image_url: "img/j_joker.png",
+    image_url: "img/ButterflyEffect.png",
     rarity: "Uncommon"
   },
   {
@@ -279,8 +272,18 @@ let jokers = [
 			"scoring {C:attention}7 {}and {C:attention}9{},",
 			"destroy all scoring {C:attention}9s{} and earn {C:money}$5{}"
     ],
-    image_url: "img/j_joker.png",
+    image_url: "img/HowHungry.png",
     rarity: "Uncommon"
+  },
+  {
+    name: "The Legend of Jimbo",
+    text: [
+			"This Joker gains {C:white,X:mult}X10{} Mult",
+			"for each {E:2,T:j_joker}Jimbo {}in your Joker slots",
+			"{C:inactive}(Currently {C:white,X:mult}X1{C:inactive} Mult)"
+    ],
+    image_url: "img/TheLegendOfJimbo.png",
+    rarity: "Rare"
   },
 ]
 
