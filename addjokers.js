@@ -151,7 +151,7 @@ let jokers = [
     name: "Black Kitten",
     text: [
 			"This Joker gains {C:white,X:mult}X0.1{} Mult if a {C:attention}Lucky {}card",
-			"{C:red}unsuccesfully {}triggers, loses {C:white,X:mult}X0.2 {} Mult",
+			"{C:red}unsuccesfully {}triggers, loses {C:white,X:mult}X0.1 {} Mult",
 			"for a {C:green}succesful {}trigger",
 			"{C:inactive}(Currently {C:white,X:mult}X1{C:inactive} Mult)"
     ],
@@ -247,8 +247,8 @@ let jokers = [
   {
     name: "Recursive Joker",
     text: [
-			"{C:mult}+5 {}Mult per hand played",
-			"{C:mult}-25 {}Mult after defeating {C:attention}Boss Blind{}",
+			"{C:mult}+4 {}Mult per hand played",
+			"{C:mult}-20 {}Mult after defeating {C:attention}Boss Blind{}",
 			"{C:inactive}(Currently {C:mult}+0{C:inactive} Mult)"
     ],
     image_url: "img/RecursiveJoker.png",
@@ -270,7 +270,7 @@ let jokers = [
     text: [
 			"If hand contains both a",
 			"scoring {C:attention}7 {}and {C:attention}9{},",
-			"destroy all scoring {C:attention}9s{} and earn {C:money}$5{}"
+			"destroy {C:attention}1 {}scoring {C:attention}9{} and earn {C:money}$6{}"
     ],
     image_url: "img/HowHungry.png",
     rarity: "Uncommon"
