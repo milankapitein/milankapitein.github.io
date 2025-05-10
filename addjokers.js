@@ -201,7 +201,7 @@ let jokers = [
   {
     name: "The Toilet",
     text: [
-			"{C:green,E:1}1 in 3{} chance to upgrade level",
+			"{C:green,E:1}1 in 2{} chance to upgrade level",
 			"of {C:attention}poker hand {}containing {C:attention}Flush{}"
     ],
     image_url: "img/TheToilet.png",
@@ -270,17 +270,15 @@ let jokers = [
     text: [
 			"If hand contains both a",
 			"scoring {C:attention}7 {}and {C:attention}9{},",
-			"destroy {C:attention}1 {}scoring {C:attention}9{} and earn {C:money}$6{}"
+			"destroy {C:attention}all {}scoring {C:attention}9{} and earn {C:money}$6{}"
     ],
     image_url: "img/HowHungry.png",
     rarity: "Uncommon"
   },
   {
-    name: "The Legend of Jimbo",
+    name: "Toast",
     text: [
-			"This Joker gains {C:white,X:mult}X10{} Mult",
-			"for each {E:2,T:j_joker}Jimbo {}in your Joker slots",
-			"{C:inactive}(Currently {C:white,X:mult}X1{C:inactive} Mult)"
+			"{C:inactive}Does nothing..?{}"
     ],
     image_url: "img/TheLegendOfJimbo.png",
     rarity: "Rare"
